@@ -11,6 +11,27 @@
 		82A9000827F361F80013166A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9000727F361F80013166A /* ContentView.swift */; };
 		82A9000A27F361F90013166A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A9000927F361F90013166A /* Assets.xcassets */; };
 		82A9000D27F361F90013166A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A9000C27F361F90013166A /* Preview Assets.xcassets */; };
+		82A9001627F363020013166A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9001527F363020013166A /* SettingsView.swift */; };
+		82A9001927F3632C0013166A /* LaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9001827F3632C0013166A /* LaunchesView.swift */; };
+		82A9001C27F3634F0013166A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9001B27F3634F0013166A /* HeaderView.swift */; };
+		82A9001E27F3635C0013166A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9001D27F3635C0013166A /* CardView.swift */; };
+		82A9002027F363660013166A /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9001F27F363660013166A /* SquareView.swift */; };
+		82A9002227F363710013166A /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002127F363710013166A /* DescriptionView.swift */; };
+		82A9002427F363930013166A /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002327F363930013166A /* CustomToggle.swift */; };
+		82A9002727F363AA0013166A /* WaweView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002627F363AA0013166A /* WaweView.swift */; };
+		82A9002927F363B90013166A /* SliderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002827F363B90013166A /* SliderSide.swift */; };
+		82A9002B27F363C50013166A /* SliderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002A27F363C50013166A /* SliderData.swift */; };
+		82A9002E27F363EB0013166A /* Spacecraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002D27F363EB0013166A /* Spacecraft.swift */; };
+		82A9003027F363F60013166A /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9002F27F363F60013166A /* Launch.swift */; };
+		82A9003327F364120013166A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9003227F364120013166A /* ViewModel.swift */; };
+		82A9004427F3649C0013166A /* LabGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9003A27F3649C0013166A /* LabGrotesque-Regular.ttf */; };
+		82A9004527F3649C0013166A /* LabGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9003B27F3649C0013166A /* LabGrotesque-Light.ttf */; };
+		82A9004627F3649C0013166A /* LabGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9003C27F3649C0013166A /* LabGrotesque-Bold.ttf */; };
+		82A9004927F3649C0013166A /* LabGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9003F27F3649C0013166A /* LabGrotesque-Medium.ttf */; };
+		82A9004D27F364B90013166A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9004C27F364B90013166A /* Color+Extension.swift */; };
+		82A9004F27F364C40013166A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9004E27F364C40013166A /* Int+Extension.swift */; };
+		82A9005127F364D20013166A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9005027F364D20013166A /* String+Extension.swift */; };
+		82A9005327F364DD0013166A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9005227F364DD0013166A /* Double+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,28 @@
 		82A9000727F361F80013166A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82A9000927F361F90013166A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82A9000C27F361F90013166A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82A9001327F3620C0013166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A9001527F363020013166A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		82A9001827F3632C0013166A /* LaunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesView.swift; sourceTree = "<group>"; };
+		82A9001B27F3634F0013166A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		82A9001D27F3635C0013166A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		82A9001F27F363660013166A /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		82A9002127F363710013166A /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		82A9002327F363930013166A /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		82A9002627F363AA0013166A /* WaweView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaweView.swift; sourceTree = "<group>"; };
+		82A9002827F363B90013166A /* SliderSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSide.swift; sourceTree = "<group>"; };
+		82A9002A27F363C50013166A /* SliderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderData.swift; sourceTree = "<group>"; };
+		82A9002D27F363EB0013166A /* Spacecraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacecraft.swift; sourceTree = "<group>"; };
+		82A9002F27F363F60013166A /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		82A9003227F364120013166A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		82A9003A27F3649C0013166A /* LabGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		82A9003B27F3649C0013166A /* LabGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		82A9003C27F3649C0013166A /* LabGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		82A9003F27F3649C0013166A /* LabGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		82A9004C27F364B90013166A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		82A9004E27F364C40013166A /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		82A9005027F364D20013166A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		82A9005227F364DD0013166A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				82A9000527F361F80013166A /* SpaceX_AppApp.swift */,
-				82A9000727F361F80013166A /* ContentView.swift */,
+				82A9001727F3630E0013166A /* View */,
+				82A9002C27F363D90013166A /* Model */,
+				82A9003127F364000013166A /* ViewModel */,
+				82A9003627F364650013166A /* Fonts */,
+				82A9004B27F364AB0013166A /* Extensions */,
 				82A9000927F361F90013166A /* Assets.xcassets */,
 				82A9000B27F361F90013166A /* Preview Content */,
 			);
@@ -59,9 +106,83 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		82A9001727F3630E0013166A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82A9000727F361F80013166A /* ContentView.swift */,
+				82A9001527F363020013166A /* SettingsView.swift */,
+				82A9001827F3632C0013166A /* LaunchesView.swift */,
+				82A9001A27F3633C0013166A /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82A9001A27F3633C0013166A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82A9001B27F3634F0013166A /* HeaderView.swift */,
+				82A9001D27F3635C0013166A /* CardView.swift */,
+				82A9001F27F363660013166A /* SquareView.swift */,
+				82A9002127F363710013166A /* DescriptionView.swift */,
+				82A9002327F363930013166A /* CustomToggle.swift */,
+				82A9002527F3639D0013166A /* CustomSlider */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		82A9002527F3639D0013166A /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				82A9002627F363AA0013166A /* WaweView.swift */,
+				82A9002827F363B90013166A /* SliderSide.swift */,
+				82A9002A27F363C50013166A /* SliderData.swift */,
+			);
+			path = CustomSlider;
+			sourceTree = "<group>";
+		};
+		82A9002C27F363D90013166A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82A9002D27F363EB0013166A /* Spacecraft.swift */,
+				82A9002F27F363F60013166A /* Launch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82A9003127F364000013166A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82A9003227F364120013166A /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82A9003627F364650013166A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				82A9003C27F3649C0013166A /* LabGrotesque-Bold.ttf */,
+				82A9003B27F3649C0013166A /* LabGrotesque-Light.ttf */,
+				82A9003F27F3649C0013166A /* LabGrotesque-Medium.ttf */,
+				82A9003A27F3649C0013166A /* LabGrotesque-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		82A9004B27F364AB0013166A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82A9004C27F364B90013166A /* Color+Extension.swift */,
+				82A9004E27F364C40013166A /* Int+Extension.swift */,
+				82A9005027F364D20013166A /* String+Extension.swift */,
+				82A9005227F364DD0013166A /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		82A9FFF927F361F80013166A = {
 			isa = PBXGroup;
 			children = (
+				82A9001327F3620C0013166A /* Info.plist */,
 				82A9000427F361F80013166A /* SpaceX App */,
 				82A9000327F361F80013166A /* Products */,
 			);
@@ -126,7 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A9000D27F361F90013166A /* Preview Assets.xcassets in Resources */,
+				82A9004927F3649C0013166A /* LabGrotesque-Medium.ttf in Resources */,
+				82A9004627F3649C0013166A /* LabGrotesque-Bold.ttf in Resources */,
 				82A9000A27F361F90013166A /* Assets.xcassets in Resources */,
+				82A9004527F3649C0013166A /* LabGrotesque-Light.ttf in Resources */,
+				82A9004427F3649C0013166A /* LabGrotesque-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +262,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A9002B27F363C50013166A /* SliderData.swift in Sources */,
+				82A9002727F363AA0013166A /* WaweView.swift in Sources */,
+				82A9001C27F3634F0013166A /* HeaderView.swift in Sources */,
+				82A9004F27F364C40013166A /* Int+Extension.swift in Sources */,
+				82A9002E27F363EB0013166A /* Spacecraft.swift in Sources */,
+				82A9003027F363F60013166A /* Launch.swift in Sources */,
+				82A9001627F363020013166A /* SettingsView.swift in Sources */,
 				82A9000827F361F80013166A /* ContentView.swift in Sources */,
+				82A9004D27F364B90013166A /* Color+Extension.swift in Sources */,
+				82A9002427F363930013166A /* CustomToggle.swift in Sources */,
+				82A9005127F364D20013166A /* String+Extension.swift in Sources */,
+				82A9005327F364DD0013166A /* Double+Extension.swift in Sources */,
 				82A9000627F361F80013166A /* SpaceX_AppApp.swift in Sources */,
+				82A9002027F363660013166A /* SquareView.swift in Sources */,
+				82A9003327F364120013166A /* ViewModel.swift in Sources */,
+				82A9001E27F3635C0013166A /* CardView.swift in Sources */,
+				82A9001927F3632C0013166A /* LaunchesView.swift in Sources */,
+				82A9002227F363710013166A /* DescriptionView.swift in Sources */,
+				82A9002927F363B90013166A /* SliderSide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +411,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpaceX App/Preview Content\"";
 				DEVELOPMENT_TEAM = 3868R87QJX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/romanrakhlin/Dropbox/Mac/Desktop/SpaceX App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,12 +442,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpaceX App/Preview Content\"";
 				DEVELOPMENT_TEAM = 3868R87QJX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/romanrakhlin/Dropbox/Mac/Desktop/SpaceX App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
