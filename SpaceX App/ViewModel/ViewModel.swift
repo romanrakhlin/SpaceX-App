@@ -11,15 +11,18 @@ import Combine
 // MARK: - DataModel
 class ViewModel: ObservableObject {
     
-    @Published var spacecrafts = Spacecrafts()
-    
     let baseURL: String = "https://api.spacexdata.com/v4"
+    @Published var spacecrafts = Spacecrafts()
     
     func fetchSpacecrafts(completionHandler: @escaping (Spacecrafts?) -> Void) -> Void {
         guard let url = URL(string: baseURL + "/rockets") else { return }
         
         let task = URLSession.shared.dataTask(with: url) { data, _, error in
-            guard let data = data, error == nil else { return }
+            guard let data = data, error == nil else {
+                completionHandler(nil)
+                return
+                
+            }
             
             do {
                 let spacecrafts = try JSONDecoder().decode(Spacecrafts.self, from: data)
@@ -37,7 +40,11 @@ class ViewModel: ObservableObject {
         guard let url = URL(string: baseURL + "/launches") else { return }
         
         let task = URLSession.shared.dataTask(with: url) {data, _, error in
-            guard let data = data, error == nil else { return }
+            guard let data = data, error == nil else {
+                completionHandler(nil)
+                return
+                
+            }
             
             do {
                 let launches = try JSONDecoder().decode(Launches.self, from: data)

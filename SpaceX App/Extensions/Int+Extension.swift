@@ -8,6 +8,7 @@
 import Foundation
 
 extension Int {
+    
     var roundedWithAbbreviations: String {
         let number = Double(self)
         let million = number / 1000000

@@ -121,9 +121,3 @@ struct CardView: View {
         .cornerRadius(32)
     }
 }
-
-struct CardView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

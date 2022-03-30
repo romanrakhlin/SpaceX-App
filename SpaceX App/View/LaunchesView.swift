@@ -9,13 +9,13 @@ import SwiftUI
 
 struct LaunchesView: View {
     
-    @Environment(\.dismiss) var dismiss
+    let spacecraftName: String
+    let spacecraftId: String
     
     @StateObject var viewModel = ViewModel()
     @State var launches: Launches? = []
     
-    let spacecraftName: String
-    let spacecraftId: String
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack {
