@@ -18,7 +18,7 @@
 - Главный экран со всеми ракетами SpaceX
 - Экран со всеми запусками рокет
 - Экран настроек
-- Данные тянуться с официального <a href="https://api.spacexdata.com/v4/">API</a>
+- Данные тянуться с официального API по <a href="https://api.spacexdata.com/v4/rockets">ракетам</a> и по <a href="https://api.spacexdata.com/v4/launches">запускам</a>
 - Проделана большяа работа с UI (Sticky Image Header, Custom Page Control, Custom Toggle)
 - Реализовано на архитектуре MVVM
 
